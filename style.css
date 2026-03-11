@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 92%;
+  padding: 20px;
+  box-shadow: 0 0 10px #333;
+  background-color: #999;
+}
+.container select {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  text-indent: 10px;
+  margin: 5px 0;
+}
+.container #block {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container #block #qiymat,
+.container #block #reset {
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+.container #block #reset {
+  background-color: antiquewhite;
+  line-height: 45px;
+}
+.container #hisob {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: teal;
+  margin: 10px auto;
+  color: white;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+}
+.container #count {
+  width: 360px;
+  height: 480px;
+  box-shadow: 0 0 10px #333;
+  border-radius: 12px;
+  line-height: 480px;
+  text-align: center;
+  font-size: 150px;
+  z-index: 2;
+  position: absolute;
+  top: 265px;
+  color: #fff;
+}
+.container #tarmoq {
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 30px;
+}/*# sourceMappingURL=style.css.map */
