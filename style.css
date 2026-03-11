@@ -13,14 +13,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #0F172A;
 }
 
 .container {
   width: 400px;
-  height: 92%;
-  padding: 20px;
+  height: 100vh;
+  padding: 10px;
   box-shadow: 0 0 10px #333;
-  background-color: #999;
+  background-color: #065f46;
+  border-radius: 20px;
+  color: #fff;
 }
 .container .selects {
   display: flex;
@@ -37,7 +40,7 @@ body {
 .container .result {
   width: 100%;
   height: 100px;
-  background-color: bisque;
+  background-color: #d4af37;
   text-align: center;
   border-radius: 10px;
   font-size: 20px;
@@ -56,7 +59,7 @@ body {
   font-size: 15px;
 }
 .container #block #reset {
-  background-color: antiquewhite;
+  background-color: #1e40af;
   line-height: 45px;
 }
 .container #hisob {
@@ -71,7 +74,7 @@ body {
   text-align: center;
 }
 .container #count {
-  width: 360px;
+  width: 100%;
   height: 350px;
   box-shadow: 0 0 10px #333;
   border-radius: 12px;
@@ -79,10 +82,14 @@ body {
   text-align: center;
   font-size: 150px;
   color: #fff;
+  background-color: #059669;
 }
 .container #tarmoq {
   text-align: center;
   padding: 10px;
   position: absolute;
   bottom: 30px;
+}
+.container #tarmoq a {
+  color: #22c55e;
 }/*# sourceMappingURL=style.css.map */
