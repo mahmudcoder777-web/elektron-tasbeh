@@ -18,7 +18,7 @@ body {
 
 .container {
   width: 400px;
-  height: 100vh;
+  min-height: 100vh;
   padding: 10px;
   box-shadow: 0 0 10px #333;
   background-color: #065f46;
@@ -63,14 +63,13 @@ body {
   line-height: 45px;
 }
 .container #hisob {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
   background-color: teal;
   margin: 10px auto;
   color: white;
-  font-size: 50px;
-  line-height: 80px;
+  font-size: 40px;
   text-align: center;
 }
 .container #count {
@@ -82,13 +81,13 @@ body {
   text-align: center;
   font-size: 150px;
   color: #fff;
-  background-color: teal;
+  background-color: #059669;
 }
 .container #tarmoq {
   text-align: center;
   padding: 10px;
   position: absolute;
-  bottom: 5px;
+  bottom: 0;
 }
 .container #tarmoq a {
   color: #22c55e;
