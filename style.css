@@ -82,13 +82,13 @@ body {
   text-align: center;
   font-size: 150px;
   color: #fff;
-  background-color: #059669;
+  background-color: teal;
 }
 .container #tarmoq {
   text-align: center;
   padding: 10px;
   position: absolute;
-  bottom: 30px;
+  bottom: 5px;
 }
 .container #tarmoq a {
   color: #22c55e;
